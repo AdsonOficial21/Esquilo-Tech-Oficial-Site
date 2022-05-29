@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Frozen";
+    src: url("../fontes/Frozen.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "North Zone";
+    src: url("../fontes/North\ Zone.otf") format("opentype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "HolidaySweetLovely";
+    src: url("../fontes/HolidaySweetLovely.otf") format("opentype");
+    font-weight: normal;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #065AFF;
+}
+
+header {
+    background-color: #F16D22;
+}
+
+header img {
+    display: block; margin-left: auto; margin-right: auto;
+    max-width: 150px;
+    max-height: 100px;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    padding-bottom: 5px;
+    font-family: "North Zone", Arial, Helvetica, sans-serif;
+    text-shadow:  0px 0px 10px black;
+}
+
+header p {
+    text-align: center;
+    font-family: "HolidaySweetLovely", Arial, Helvetica, sans-serif;
+    font-weight: bold;  
+    color: white;
+    text-shadow:  0px 0px 10px black;
+}
+
+nav  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 15px;
+}
+
+nav a:hover {
+    background-color: #065AFF;
+    border-radius: 7px;
+    color: black;
+    transition: .5s;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+}
+
+article h1 {
+    font-family: "Frozen", Arial, Helvetica, sans-serif;
+    color: #F16D22;
+    background: linear-gradient(to right, #065AFF, transparent);
+}
+
+article p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+    padding-bottom: 20px;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+article p.principal {
+    padding-top: 30px;
+}
+
+article p.secundario {
+    padding-top: 30px;
+}
+
+article a {
+    text-decoration: none;
+    color: #F16D22;
+}
+
+article a:hover {
+    text-decoration: underline;
+    color: #065AFF;
+}
+
+article #internet {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+article #facebook {
+    width: 100%;
+    padding-top: 15px;
+}
+
+main > article > h1#secundario {
+    background: linear-gradient(to right, #065AFF, transparent);
+    border: 0px 0px 0px 0px;
+}
+
+article .nomedepessoa {
+    color: black;
+}
+
+div {
+    background-color: #F16D22;
+    text-align: center;
+}
+
+footer {
+    background-color: #065AFF;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+
+footer a {
+    color: #F16D22;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+aside#periferico {
+    background-color: #F16D22;
+    text-align: left;
+    margin: 9px;
+    border-radius: 24px 24px 0px 0px;
+}
+
+aside h3 {
+    background-color: #065AFF;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 12px 12px 0px 0px;
+}
+
+p#paragrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 13px;
+}
+
+aside ul {
+    list-style: inside;
+    list-style-type: none;
+    columns: 2;
+    padding: 0px 0px 0px 25px;
+}
+
+aside > ul > li {
+    padding: 0px 0px 10px 0px;
+}
